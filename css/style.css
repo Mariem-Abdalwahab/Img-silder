@@ -1,0 +1,72 @@
+:root{
+--Soft-orange: hsl(35, 77%, 62%);
+--Soft-red: hsl(5, 85%, 63%);
+--Off-white: hsl(36, 100%, 99%);
+--Grayish-blue: hsl(233, 8%, 79%);
+--Dark-grayish-blue: hsl(236, 13%, 42%);
+--Very-dark-blue: hsl(240, 100%, 5%);
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  transition: all ease-in 0.2s;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+  margin: 0;
+  background-color: rgb(65, 67, 67);
+  max-height: 100vh;
+  overflow: hidden;
+}
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+ul li{
+  margin: 0 10px;
+  background-color: aqua;
+  color: azure;
+  cursor: pointer;
+  padding: 5px 10px;
+
+}
+.slides img{
+  width: 500px;
+  height: 500px;
+}
+.slides{
+  width: fit-content;
+  margin: auto;
+}
+
+.container{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  width: fit-content;
+}
+.tex{
+  
+}
+.btns{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* width: fit-content; */
+  margin: auto;
+  margin-top: 15px;
+}
+.pagin{
+  padding: 0;
+  width: 80%;
+}
+.next,.pre{
+  width: 20%;
+  cursor: pointer;
+
+}
