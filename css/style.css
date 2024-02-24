@@ -68,6 +68,9 @@ li.active{
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
+@media (max-width: 540px){
+  width: 100% ;
+}
 }
 .slides img{
   width: 100%;
@@ -81,6 +84,10 @@ li.active{
 .slides{
   display: flex;
   justify-content: center;
+  margin: auto;
+  @media (max-width: 540px){
+    width: 80% ;
+  }
 }
 
 .container{
@@ -89,7 +96,9 @@ li.active{
   top: 50%;
   transform: translate(-50%,-50%);
   text-align: center;
-
+  @media (max-width: 540px){
+    width: 100% ;
+  }
 }
 .tex{
   
@@ -101,12 +110,12 @@ li.active{
   margin: auto;
   margin-top: 15px;
   @media (max-width: 540px){
-    width: 100%;
+    width: 80%;
   }
 }
 .pagin{
   padding: 0;
-  width: 80%;
+  /* width: 80%; */
 }
 .next,.pre{
   padding: 5px 10px;
